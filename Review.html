@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Life</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+    <div class="header-1">
+      <a href="#" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
+
+      <form action="searchResult.php" class="search-form">
+        <input
+          type="text"
+          name="searchResults"
+          placeholder="Enter Your Post Code Here"
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="icons">
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+    </div>
+
+
+<div class="header-2">
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="GymOffers.html">Gym Offers</a>
+      <a href="Contact us.html">Contact us</a>
+      <a href="Review.html">Review</a>
+    </nav>
+  </div>
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="index.html" class="fas fa-home"></a>
+    <a href="GymOffers.html" class="fas fa-list"></a>
+    <a href="Contact us.html" class="fas fa-tags"></a>
+    <a href="Review.html" class="fas fa-comments"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="signup.php">
+      <h3>sign in</h3>
+      <span>username</span>
+      <input
+        type="email"
+        name="email"
+        class="box"
+        placeholder="enter your email"
+        id="email"
+      />
+      <span>password</span>
+      <input
+        type="password"
+        name="password"
+        class="box"
+        placeholder="enter your password"
+        id="password"
+      />
+      <div class="checkbox">
+        <input type="checkbox" name="remember-me" id="remember-me" />
+        <label for="remember-me"> remember me</label>
+      </div>
+      <input type="submit" value="sign in" class="btn" />
+      <p>forget password ? <a href="Forgetpass.html">click here</a></p>
+      <p>
+        Register as a customer <a href="Registrationform.html">create one</a>
+      </p>
+      <p>Register as a Gym <a href="gymReg.php">create one</a></p>
+    </form>
+  </div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Gym Life</h3>
+            <p> This is our reviews from our loyal customers. </p>
+        
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="image/gym1.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/gym2.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/gym3.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/gym4.png" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+
+
+    <div class="icons">
+        
+        <div class="content">
+            <h3>Diogo De Mora </h3>
+            <p>"Using Gym Life allowed me to find the best deal in Wolverhampton"</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <div class="co11nt111111111111111ent">
+            <h3>John Martin</h3>
+            <p>"I am happy usng Gym Life because I was able to save 20% on my JD gym membership"</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <div class="content">
+            <h3>Anna Benitez</h3>
+            <p>"I have using Gym life for years and I love it. I even recommend it to my friends!"</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form action="check-login.php">
+        <h3>subscribe for latest updates</h3>
+        <input type="email" name="email" placeholder="enter your email" id="email" class="box">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- arrivals section starts  -->
+
+
+<!-- arrivals section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>Gym Life</h3>
+        <h1>Best Gym Deals in the UK </h1>
+        <a href="Gymoffers.html" class="btn">shop now</a>
+    </div>
+
+    <div class="image">
+        <img src="image/GymLife.png" alt="">
+    </div>
+   
+   
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>client's reviews</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <h3>Anton Sanderson</h3>
+                <p>The PureGym deal is very good and I was able to save £5 a month</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <h3>Diogo De Mora </h3>
+                <p>I really liked the GymBox deal and would recommend this website to many of my Friends.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <h3>Edris Mukthari</h3>
+                <p>"GymLife has helped me out in a finding a new gym near my home for the best price in the market"</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png" alt="">
+                <h3>Samuel Kelly</h3>
+                <p>"I wished GymLife was made two years ago :)"</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-5.png" alt="">
+                <h3>Jermeiah Ghobrial </h3>
+                <p>"".</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-6.png" alt="">
+                <h3>Sam Hafez</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- reviews section ends -->
+
+<!-- blogs section starts  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

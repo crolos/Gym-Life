@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym  Offers</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+    <div class="header-1">
+      <a href="#" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
+
+      <form action="searchResult.php" class="search-form">
+        <input
+          type="text"
+          name="searchResults"
+          placeholder="Enter Your Post Code Here"
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="icons">
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+    </div>
+>
+
+<div class="header-2">
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="GymOffers.html">Gym Offers</a>
+        <a href="Contact us.html">Contact us</a>
+        <a href="Review.html">Reviews</a>
+    </nav>
+</div>
+
+
+<nav class="bottom-navbar">
+    <a href="index.html" class="fas fa-home"></a>
+    <a href="GymOffers.html" class="fas fa-list"></a>
+    <a href="Contact us.html" class="fas fa-tags"></a>
+    <a href="Review.html" class="fas fa-comments"></a>
+    <a href="blogs.html" class="fas fa-blog"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="signup.php">
+      <h3>sign in</h3>
+      <span>username</span>
+      <input
+        type="email"
+        name="email"
+        class="box"
+        placeholder="enter your email"
+        id="email"
+      />
+      <span>password</span>
+      <input
+        type="password"
+        name="password"
+        class="box"
+        placeholder="enter your password"
+        id="password"
+      />
+      <div class="checkbox">
+        <input type="checkbox" name="remember-me" id="remember-me" />
+        <label for="remember-me"> remember me</label>
+      </div>
+      <input type="submit" value="sign in" class="btn" />
+      <p>forget password ? <a href="Forgetpass.html">click here</a></p>
+      <p>
+        Register as a customer <a href="Registrationform.html">create one</a>
+      </p>
+      <p>Register as a Gym <a href="gymReg.php">create one</a></p>
+    </form>
+  </div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+<div class="row">
+<div class="content">
+            <h3>Gym Life</h3>
+            <p> Welcome to Gym Life where we provide the best gym memeberships local to your area </p>
+            <h1>Here we have gym deals locally to your area  </h1>
+            <a href="Registrationform.html" class="btn">Click here</a>
+           </p>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="image/gym1.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/gym2.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/gym3.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/gym4.png" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="co11nt111111111111111ent">
+            <h3>easy returns</h3>
+            <p>10 days returns</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Gym memberships</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                    
+                </div>
+                <div class="image">
+                    <img src="image/jdgym.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Wolverhampton JD Gyms</h3>
+                    <div class="price">£15.99 per month <span></span></div>
+                    <a href="Transactionpage.html" class="btn">Click here to Purchase this membership</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
+                </div>
+                <div class="image">
+                    <img src="image/puregym.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Wolverhampton PureGym</h3>
+                    <div class="price">£15.99 <span></span></div>
+                    <a href="Transactionpage2.html" class="btn">Click here to Purchase this membership</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                    
+                </div>
+                <div class="image">
+                    <img src="image/davidlloyd.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Wolverhampton David Lloyd</h3>
+                    <div class="price">£15.99 <span></span></div>
+                    <a href="" class="btn">Click here to Purchase this membership</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                    
+                </div>
+                <div class="image">
+                    <img src="image/energie fitness.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Wolverhampton Energie Fitness </h3>
+                    <div class="price">£15.99 <span></span></div>
+                    <a href="Transactionpage5.html" class="btn">Click here to Purchase this membership</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
+                </div>
+                <div class="image">
+                    <img src="image/thegym.png" alt="">
+                </div> 
+                <div class="content">
+                    <h3>Wolverhampton TheGym</h3>
+                    <div class="price">£15.99 <span></span></div>
+                    <a href="#" class="btn">Click here to Purchase this membership</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
+                </div>
+                <div class="image">
+                    <img src="image/foundrygym.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Wolverhampton FoundryGym</h3>
+                    <div class="price">£15.99 <span></span></div>
+                    <a href="#" class="btn">Click here to Purchase this membership</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
+                </div>
+                <div class="image">
+                    <img src="image/jdgym.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Birmingham JD Gym </h3>
+                    <div class="price">£15.99 <span></span></div>
+                    <a href="#" class="btn">Click here to Purchase this membership</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
+                </div>
+                <div class="image">
+                    <img src="image/thepitgym.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Birmingham The Pit Gym </h3>
+                    <div class="price">£15.99 <span></span></div>
+                    <a href="#" class="btn">Click here to Purchase this membership</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
+                </div>
+                <div class="image">
+                    <img src="image/puregymbham.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Puregym Birmingham Arcadian Center</h3>
+                    <div class="price">£15.99 <span></span></div>
+                    <a href="#" class="btn">Click here to Purchase this membership</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
+                </div>
+                <div class="image">
+                    <img src="image/puregym.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>PureGym London Waterloo</h3>
+                    <div class="price">£15.99 <span></span></div>
+                    <a href="Transactionpage3.html" class="btn">Click here to Purchase this membership</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
